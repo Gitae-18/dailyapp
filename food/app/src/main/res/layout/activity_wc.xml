@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp"
+    android:background="@drawable/wc_background"
+    tools:context="com.example.food.GameActivity">
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_weight="1" />-->
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="300dp"
+        android:paddingTop="70dp"
+        android:paddingRight="20dp">
+
+        <ImageButton
+            android:id="@+id/imageButton_foodimg1"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_gravity="top"
+            android:layout_marginBottom="10dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background" />
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <View
+                android:id="@+id/emiter_star_one"
+                android:layout_width="1dp"
+                android:layout_height="1dp" />
+
+            <View
+                android:id="@+id/emiter_star_two"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_three"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_four"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_five"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_six"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_seven"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginLeft="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_eight"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp" />
+
+            <View
+                android:id="@+id/emiter_star_nine"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="8dp" />
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="150dp"
+    android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:paddingBottom="30dp"
+
+    >
+
+        <ImageButton
+        android:id="@+id/imageButton_foodimg2"
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:layout_gravity="bottom"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+</LinearLayout>
